@@ -40,7 +40,7 @@ const DialogWindow: React.FC<DialogWindowProps>=({
             />
 
             {/* Dialog */}
-            <div className={`relative bg-white rounded-lg shadow-xl ${sizeClasses[size]} w-full mx-4 max-h-[90vh] flex flex-col ${className}`}>
+            <div className={`relative bg-white rounded-lg shadow-xl ${sizeClasses[size]} w-full mx-4 max-h-[90vh] flex flex-col pb-8 px-6 ${className}`}>
                 {header && <DialogHeader {...header} />}
                 <DialogContent {...content} />
                 {footer && <DialogFooter {...footer} />}
