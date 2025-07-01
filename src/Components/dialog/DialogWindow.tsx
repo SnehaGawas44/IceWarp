@@ -11,6 +11,7 @@ export interface DialogWindowProps{
     content?: DialogContentProps;
     size?: 'sm' | 'md' | 'lg' | 'xl';
     className?: string;
+    children?: React.ReactNode;
 }
 
 const DialogWindow: React.FC<DialogWindowProps>=({

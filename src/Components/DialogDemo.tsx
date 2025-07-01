@@ -85,7 +85,10 @@ const DialogDemo: React.FC = () => {
         size="md"
         header={{
           title: 'Confirm Action',
-          icon: { type: 'question' }
+          icon: {
+            type: 'question',
+            className: ""
+          }
         }}
         content={{
           children: (
@@ -118,7 +121,10 @@ const DialogDemo: React.FC = () => {
         size="lg"
         header={{
           title: 'Warning',
-          icon: { type: 'warning' }
+          icon: {
+            type: 'warning',
+            className: ""
+          }
         }}
         content={{
           children: (
@@ -157,7 +163,10 @@ const DialogDemo: React.FC = () => {
         size="sm"
         header={{
           title: 'Success!',
-          icon: { type: 'success' }
+          icon: {
+            type: 'success',
+            className: ""
+          }
         }}
         content={{
           children: (
@@ -185,7 +194,10 @@ const DialogDemo: React.FC = () => {
         size="md"
         header={{
           title: 'Error Occurred',
-          icon: { type: 'error' },
+          icon: {
+            type: 'error',
+            className: ""
+          },
           buttons: [
             {
               id: 'help',
@@ -237,7 +249,10 @@ const DialogDemo: React.FC = () => {
         size="lg"
         header={{
           title: 'System Information',
-          icon: { type: 'info' }
+          icon: {
+            type: 'info',
+            className: ""
+          }
         }}
         content={{
           children: (
@@ -275,7 +290,10 @@ const DialogDemo: React.FC = () => {
         size="xl"
         header={{
           title: 'Advanced Settings',
-          icon: { type: 'info' },
+          icon: {
+            type: 'info',
+            className: ""
+          },
           buttons: [
             {
               id: 'reset',
